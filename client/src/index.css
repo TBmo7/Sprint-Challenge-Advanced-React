@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #086972;
 }
+.dark-mode{
+  
+  color:white;
+  background: darkslategray;
+  
+
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.navBar{
+  height:50px;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #212422 ;
+}
+
+.playerCard{
+    
+  margin: 3%;
+  width:30%;
+  text-align: center;
+  text-justify: center;
+  color:#17211d;
+  background: linear-gradient( to bottom right, rgb(167, 255, 131), rgb(23, 185, 120) ); 
+  box-shadow: inset 3px 2px #071a52;
+
+}
+
+.holderHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.cardHolder{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  
+}
+
+
+
+
