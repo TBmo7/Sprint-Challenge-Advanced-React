@@ -9,7 +9,7 @@ import  {useEffect} from "react"
         
         const element = window.document.body;
         const card = window.document.getElementsByClassName("playerCard")
-        console.log(card);
+        // console.log(card);
             if(values === true){
                 element.classList.add("dark-mode")
                
